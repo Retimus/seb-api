@@ -178,5 +178,37 @@
       "reportId": 82,
       "isActive": true
     }
- ]
+ ],
+  "contacts": [
+    {
+      "id": 374,
+      "subscriptionid": 604,
+      "recipient": "daniel.krebs@seb.se;daniel.krebs@seb.se;magnus.kroon@seb.se",
+      "name": "" 
+    },
+    {
+      "id": 427,
+      "subscriptionid": 661,
+      "recipient": "itc@seb.se;nycrisk@sebny.com;NYCCapitalMarkets@seb.se;\\r\\nkarl-johan.nystedt@seb.se;",
+      "name": "" 
+    },
+    {
+      "id": 428,
+      "subscriptionid": 662,
+      "recipient": "itc@seb.se;nycrisk@sebny.com;eqfny@sebny.com;pontus.lundqvist@sebny.com;",
+      "name": "" 
+    },    
+    {
+      "id": 429,
+      "subscriptionid": 663,
+      "recipient": "itc@seb.se;RiskOversightTrading&TreasuryStockholm@seb.se;eric.hoh@seb.se;",
+      "name": "" 
+    },    
+    {
+      "id": 430,
+      "subscriptionid": 664,
+      "recipient": "itc@seb.se;nycrisk@sebny.com;treasurynyc@sebny.com;",
+      "name": "" 
+    }
+  ]
 }
