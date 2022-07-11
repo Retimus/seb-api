@@ -1,34 +1,182 @@
 {
-  "posts": [
+  "rules": [
     {
       "id": 1,
-      "title": "Post 1",
-      "author": "Retimus"
+      "name": "Rule 1",
+      "description": "This is very first rule",
+      "level": "Trade",
+      "isActive": true
     },
     {
       "id": 2,
-      "title": "Post 2",
-      "author": "Retimus"
+      "name": "Rule 2",
+      "description": "This is best rule",
+      "level": "Delivery",
+      "isActive": true
     },
     {
       "id": 3,
-      "title": "Post 3",
-      "author": "Retimus"
+      "name": "Rule 3",
+      "description": "This rule is obsolete",
+      "level": "Trade",
+      "isActive": false
     }
   ],
-  "comments": [
+  "reports": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 82,
+      "name": "Bond Repos SEB AG",
+      "typeId": 1,
+      "sortOrder": 1,
+      "isActive": true
     },
     {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "id": 95,
+      "name": "BTP migration",
+      "typeId": 2,
+      "sortOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": 107,
+      "name": "Management Money Market",
+      "typeId": 2,
+      "sortOrder": 6,
+      "isActive": true
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "reportMappings": [
+    {
+      "orderId": 3,
+      "location": "",
+      "profitcentre": "FX_MGMT",
+      "portfolio": "FMSTEQT",
+      "datasource": "MurexFX",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 107,
+      "isActive": true
+    },
+    {
+      "orderId": 3,
+      "location": "",
+      "profitcentre": "FX_MGMT",
+      "portfolio": "FSLOMM",
+      "datasource": "MurexFX",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 107,
+      "isActive": true
+    },
+    {
+      "orderId": 3,
+      "location": "",
+      "profitcentre": "FX_MGMT",
+      "portfolio": "FSSTMM",
+      "datasource": "MurexFX",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 107,
+      "isActive": true
+    },
+    {
+      "orderId": 3,
+      "location": "",
+      "profitcentre": "FX_MGMT",
+      "portfolio": "FSWAMM",
+      "datasource": "MurexFX",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 107,
+      "isActive": true
+    },
+    {
+      "orderId": 3,
+      "location": "",
+      "profitcentre": "FX_MGMT",
+      "portfolio": "MSGBMM",
+      "datasource": "MurexFX",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 107,
+      "isActive": true
+    },
+    {
+      "orderId": 3,
+      "location": "",
+      "profitcentre": "FX_MGMT",
+      "portfolio": "OPGLFUND",
+      "datasource": "MurexFX",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 107,
+      "isActive": true
+    },
+    {
+      "orderId": 67,
+      "location": "",
+      "profitcentre": "",
+      "portfolio": "FTSL01",
+      "datasource": "",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 82,
+      "isActive": true
+    },
+    {
+      "orderId": 67,
+      "location": "",
+      "profitcentre": "",
+      "portfolio": "FTSL02",
+      "datasource": "",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 82,
+      "isActive": true
+    },
+    {
+      "orderId": 67,
+      "location": "",
+      "profitcentre": "",
+      "portfolio": "FTREPO01",
+      "datasource": "",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 82,
+      "isActive": true
+    },
+    {
+      "orderId": 67,
+      "location": "",
+      "profitcentre": "",
+      "portfolio": "FTREPO02",
+      "datasource": "",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 82,
+      "isActive": true
+    },
+    {
+      "orderId": 67,
+      "location": "",
+      "profitcentre": "",
+      "portfolio": "FTTSY51",
+      "datasource": "",
+      "branchId": "",
+      "counterparty": "",
+      "locationExcl": "",
+      "reportId": 82,
+      "isActive": true
+    },
+ ]
 }
