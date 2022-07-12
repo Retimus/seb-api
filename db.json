@@ -20,7 +20,14 @@
       "description": "This rule is obsolete",
       "level": "Trade",
       "isActive": false
-    }
+    },
+    {
+      "id": 4,
+      "name": "Rule",
+      "description": "This rule is new",
+      "level": "Trade",
+      "isActive": true
+    }    
   ],
   "reports": [
     {
